@@ -9,14 +9,14 @@ last_updated: 2026-05-04
 ## Concept
 | 페이지 | 요약 | 갱신 |
 |--------|------|------|
-| [[.wiki/concept/base-dto]] | 모든 DTO의 공통 응답 필드(errorCode, errorMsg)를 정의하는 최상위 베이스 클래스 | 2026-05-04 |
+| [[.wiki/concept/base-dto]] | 모든 응답 DTO의 공통 부모 클래스 | 2026-05-04 |
 
 ## Pattern
 | 페이지 | 요약 | 갱신 |
 |--------|------|------|
-| [[.wiki/pattern/base-dto-inheritance]] | 각 도메인 DTO가 BaseDTO를 extends하여 errorCode/errorMsg 공통 응답 필드를 자동으로 상속받는 패턴 | 2026-05-04 |
+| [[.wiki/pattern/base-dto-inheritance]] | BaseDTO 상속 구현 패턴 | 2026-05-04 |
 
 ## Domain
 | 페이지 | 요약 | 갱신 |
 |--------|------|------|
-| [[.wiki/domain/eq-equipment-repair]] | 설비 수리 이력 조회 및 수리 등록·완료 처리를 담당하는 EQ 도메인 기능 | 2026-05-04 |
+| [[.wiki/domain/eq-equipment-repair]] | 설비 수리 등록·조회·완료 처리 | 2026-05-04 |

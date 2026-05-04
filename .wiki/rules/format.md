@@ -33,10 +33,10 @@ tags: ["#태그1", "#태그2"]
 
 **내부 링크는 반드시 루트 상대경로 + `.md` 생략 형식을 사용하라.**
 
-✅ 올바른 형식:
+✅ 올바른 형식: *(아래는 형식 예시 — 실제 파일이 없을 수 있음)*
 ```
 [[.wiki/concept/base-dto]]
-[[.wiki/pattern/cud-service]]
+[[.wiki/pattern/example-pattern]]
 [[.wiki/domain/eq-equipment-repair]]
 [[.wiki/index]]
 ```
@@ -53,13 +53,13 @@ tags: ["#태그1", "#태그2"]
 ✅ 올바른 예:
 ```
 - [[.wiki/concept/base-dto]] — errorCode 필드 상속 기반
-- [[.wiki/pattern/cud-service]] — 이 도메인의 CUD 구현에 적용
+- [[.wiki/pattern/example-pattern]] — 이 도메인의 CUD 구현에 적용
 ```
 
 ❌ 잘못된 예:
 ```
 - [[.wiki/concept/base-dto]]
-- [[.wiki/pattern/cud-service]]
+- [[.wiki/pattern/example-pattern]]
 ```
 
 ---

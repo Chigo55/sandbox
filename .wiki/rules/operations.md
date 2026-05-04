@@ -51,7 +51,7 @@
 답변 시 반드시 출처를 밝혀라:
 
 ```
-출처: [[.wiki/concept/base-dto]], [[.wiki/pattern/cud-service]]
+출처: [[.wiki/concept/base-dto]], [[.wiki/pattern/example-pattern]]
 ```
 
 ### Filing 규칙

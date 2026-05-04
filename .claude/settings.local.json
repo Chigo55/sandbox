@@ -1,0 +1,51 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:/Users/Jeongih/.claude/plugins/cache/wiki-optimizer-plugins/wiki-optimizer/1.2.2/hooks/session-start-wiki-index.js\""
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Glob|Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:/Users/Jeongih/.claude/plugins/cache/wiki-optimizer-plugins/wiki-optimizer/1.2.2/hooks/pre-read-wiki-intercept.js\""
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:/Users/Jeongih/.claude/plugins/cache/wiki-optimizer-plugins/wiki-optimizer/1.2.2/hooks/post-read-wiki-suggest.js\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:/Users/Jeongih/.claude/plugins/cache/wiki-optimizer-plugins/wiki-optimizer/1.2.2/hooks/stop-suggest-ingest.js\""
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": {
+    "wiki-optimizer@wiki-optimizer-plugins": true
+  }
+}

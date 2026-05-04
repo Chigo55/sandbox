@@ -3,8 +3,11 @@
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 # userEmail
+
 The user's email address is jungih456@gmail.com.
+
 # currentDate
+
 Today's date is 2026-05-04.
 
 ## 프로젝트 개요
@@ -38,6 +41,7 @@ public class SomeDomainDTO extends BaseDTO {
 ```
 
 **두 가지 컨트롤러 스타일**:
+
 - REST API: `@RestController` + `/api/{domain}/{subdomain}` 경로 (JSON 반환)
 - MVC: `@RestController` + `/{domain}/{subdomain}` 경로 (`ModelAndView` 반환, 뷰 템플릿 사용)
 
@@ -45,6 +49,5 @@ public class SomeDomainDTO extends BaseDTO {
 
 설비 수리 레코드의 상태는 `PENDING` → `COMPLETED` 순서로 전이된다. Service 계층에서 상태를 직접 문자열로 관리한다.
 
-## Wiki
-
-`.wiki/` 디렉토리에 도메인 지식, 개념, 패턴 문서가 있다. 새 기능 작성 시 관련 wiki 노트를 참고하고, 새 패턴이나 도메인 로직이 추가되면 wiki에도 반영한다.
+## 참고 문서
+- [기존 문서](./docs/)
