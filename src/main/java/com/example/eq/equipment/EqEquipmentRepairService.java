@@ -35,3 +35,4 @@ public class EqEquipmentRepairService {
     }
 }
   // v1.2.3 test comment
+public void deleteRepair(String id) {}
