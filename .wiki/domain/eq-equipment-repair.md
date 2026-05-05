@@ -1,6 +1,6 @@
 ---
 id: domain_eq-equipment-repair
-last_updated: 2026-05-04
+last_updated: 2026-05-06
 source_files: ["src/main/java/com/example/eq/equipment/EqEquipmentRepairController.java", "src/main/java/com/example/eq/equipment/EqEquipmentRepairService.java"]
 dependencies: ["concept_base-dto"]
 tags: ["#domain", "#eq", "#equipment", "#repair"]
@@ -71,6 +71,11 @@ public ResponseEntity<?> completeRepair(
 
 ## 연결
 
+### 소스 파일
+- [[src/main/java/com/example/eq/equipment/EqEquipmentRepairController.java]] — 수리 API 엔드포인트 정의
+- [[src/main/java/com/example/eq/equipment/EqEquipmentRepairService.java]] — 수리 비즈니스 로직
+
+### 관련 노트
 - [[.wiki/index]] — 전체 시스템 구조 개요
 - [[.wiki/concept/base-dto]] — 요청/응답 DTO 기본 구조 상속
 - [[.wiki/pattern/base-dto-inheritance]] — 수리 요청 DTO의 BaseDTO 상속 구조

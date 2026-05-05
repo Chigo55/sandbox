@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"C:/Users/Jeongih/.claude/plugins/cache/wiki-optimizer-plugins/wiki-optimizer/1.2.2/hooks/session-start-wiki-index.js\""
+            "command": "node \"/home/jeongih/.claude/plugins/cache/wiki-optimizer-plugins/wiki-optimizer/2.0.0/hooks/session-start-wiki-index.js\""
           }
         ]
       }
@@ -17,7 +17,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"C:/Users/Jeongih/.claude/plugins/cache/wiki-optimizer-plugins/wiki-optimizer/1.2.2/hooks/pre-read-wiki-intercept.js\""
+            "command": "node \"/home/jeongih/.claude/plugins/cache/wiki-optimizer-plugins/wiki-optimizer/2.0.0/hooks/pre-read-wiki-intercept.js\""
           }
         ]
       }
@@ -28,7 +28,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"C:/Users/Jeongih/.claude/plugins/cache/wiki-optimizer-plugins/wiki-optimizer/1.2.2/hooks/post-read-wiki-suggest.js\""
+            "command": "node \"/home/jeongih/.claude/plugins/cache/wiki-optimizer-plugins/wiki-optimizer/2.0.0/hooks/post-read-wiki-suggest.js\""
           }
         ]
       }
@@ -39,7 +39,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"C:/Users/Jeongih/.claude/plugins/cache/wiki-optimizer-plugins/wiki-optimizer/1.2.2/hooks/stop-suggest-ingest.js\""
+            "command": "node \"/home/jeongih/.claude/plugins/cache/wiki-optimizer-plugins/wiki-optimizer/2.0.0/hooks/stop-suggest-ingest.js\""
           }
         ]
       }
